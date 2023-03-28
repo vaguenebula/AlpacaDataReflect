@@ -7,7 +7,7 @@ import concurrent.futures
 
 # Create a thread pool with a maximum of 10 worker threads
 executor = concurrent.futures.ThreadPoolExecutor(max_workers=10)
-openai.api_key = "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"
+openai.api_key = "API-KEY"
 
 f = open('alpaca_data_cleaned.json', encoding='utf-8')
 data = json.load(f)
